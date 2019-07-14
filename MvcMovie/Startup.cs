@@ -57,7 +57,7 @@ namespace MvcMovie
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            app.UseRequestLocalization("en-UY", "fr-FR");
+            app.UseRequestLocalization("ru-RU","en-US");
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
